@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <catalogueEntry>
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Aillaud</surname>
+                            <pc>(</pc>
+                            <forename>Alphonse</forename>
+                            <pc>)</pc>
+                        </persName>
+                        <pc>,</pc>
+                        <birth>Né à Rouen</birth>
+                        <residence>y demeurant rue Chasse-Marée, 5</residence>
+                        <pc>;</pc>
+                        <education>élève de l'école de ROuen</education>
+                    </person>
+                    <title></title>
+                </catalogueDesc>
+                <catalogueItem>
+                    <catalogueDesc>
+                        <title></title>
+                    </catalogueDesc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>
