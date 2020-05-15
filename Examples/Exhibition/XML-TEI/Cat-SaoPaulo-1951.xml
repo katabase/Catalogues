@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>1 Bienal do museu de arte moderna de São Paulo. Catálogo</title>
+                    <edition>Segunda edição</edition>
+                    <pubPlace>São Paulo - Brasil</pubPlace>
+                    <date when="1951">1951</date>
+                    <distributor source="https://issuu.com/bienal/docs/name3fe634"
+                        >Issuu</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.77 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec cartels des items détaillés (date, technique, dimensions, lieu de conservation)  -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <forename>Morris</forename>
+                            <surname>Graves</surname>
+                        </persName>
+                        <nationality><pc>(</pc>EE. UU.</nationality>
+                        <birth>1910<pc>-)</pc></birth>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>23</num>
+                    <pc>.</pc>
+                    <title>Pássaro cego</title>
+                    <pc>-</pc>
+                    <date>1950</date>
+                    <pc>.</pc>
+                    <material>gouache</material>
+                    <pc>.</pc>
+                    <dimensions>
+                        <dim>76,5x68,5</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <place>
+                        <placeName>Museum of Modern Art<pc>,</pc></placeName>
+                        <settlement type="city">New York</settlement>
+                    </place>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>24</num>
+                    <pc>.</pc>
+                    <title>Pinheiro jovem e alegre</title>
+                    <pc>-</pc>
+                    <date>1944</date>
+                    <pc>.</pc>
+                    <material>aquarela e gouache</material>
+                    <pc>.</pc>
+                    <dimensions>
+                        <dim>136x68,5</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <place>
+                        <placeName>Museum of Modern Art<pc>,</pc></placeName>
+                         <settlement type="city">New York</settlement>
+                    </place>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>25</num>
+                    <pc>.</pc>
+                    <title>"Bouquet" enfeitiçado</title>
+                    <pc>-</pc>
+                    <date>1944</date>
+                    <pc>.</pc>
+                    <material>têmpera s/papel arrôs</material>
+                    <pc>.</pc>
+                    <dimensions>
+                        <dim>76,5x70</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <place>
+                        <placeName>Willard Gallery<pc>,</pc></placeName>
+                        <settlement type="city">New York</settlement>
+                    </place>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

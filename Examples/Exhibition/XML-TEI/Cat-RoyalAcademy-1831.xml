@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The exhibition of the Royal Academy. MDCCCXXXI. The sixty-third.</title>
+                    <publisher>W. Clowes</publisher>
+                    <pubPlace>London, 14 Charing Cross</pubPlace>
+                    <date when="1831">1831</date>
+                    <distributor
+                        source="https://www.royalacademy.org.uk/art-artists/exhibition-catalogue/ra-sec-vol63-1831"
+                        >Royal Academy</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.12 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée organisée par titre d'oeuvre, avec une citation -->
+                <catalogueItem>
+                    <num>162</num>
+                    <title>Caligula's palace and bridge</title>
+                    <note>
+                        <quote>"<l>What now remains of all the mighty bridge</l>
+                            <l>Which made the Lucrine lake an inner pool,</l>
+                            <l>Caligula, but massy fragments left,</l>
+                            <l>As monuments of doubt and ruined hopes</l>
+                            <l>Yet gleaming in the morning's ray, that tell</l>
+                            <l>How Baia's shore was loved in times fone by ?</l>" MS. Fallacies of
+                            Hope.</quote>
+                    </note>
+                </catalogueItem>
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <forename>J. M. W.</forename>
+                            <surname>Turner</surname>
+                            <pc>,</pc>
+                        </persName>
+                        <affiliation role="Royal Academician">R.A.</affiliation>
+                    </person>
+                </catalogueDesc>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Catalogue de la quinzième exposition du Musée de Rouen, Ouverte le 20
+                        Octobre 1853</title>
+                    <editor>Veuve A. Surville</editor>
+                    <pubPlace>Rouen, Rue des Bons-Enfants, 46-48</pubPlace>
+                    <date when="1853">1853</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k1181799g/f19.item"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.13 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée ayant deux adresses -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Cousin</surname>
+                            <pc>(</pc>
+                            <forename>Charles</forename>
+                            <pc>),</pc>
+                        </persName>
+                        <residence>aux Andelys<pc>,</pc></residence>
+                        <residence>et chez Ganeron, doreur, rue de l'Hôpital,
+                            Rouen<pc>.</pc></residence>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem n="82">
+                    <num>82</num>
+                    <pc>.</pc>
+                    <title>Portrait de Mme C....</title>
+                </catalogueItem>
+                <catalogueItem n="83">
+                    <num>83</num>
+                    <pc>.</pc>
+                    <title>idem de Mlle V....</title>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

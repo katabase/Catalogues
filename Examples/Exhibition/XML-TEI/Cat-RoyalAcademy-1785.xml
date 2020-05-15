@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The exhibition of the Royal Academy, MDCCLXXXV. The seventeenth</title>
+                    <publisher>T. Cadell</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date when="1785">1785</date>
+                    <distributor source="https://www.royalacademy.org.uk/art-artists/exhibition-catalogue/ra-sec-vol17-1785"
+                        >Royal Academy</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.9 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée organisée par titre d'oeuvre, marquée par une astérisque (à vendre) -->
+                <catalogueItem>
+                    <num>223</num>
+                    <pc>*</pc>
+                    <title>Fruit</title> 
+                </catalogueItem>
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <forename>S.</forename>
+                            <surname>Elmer</surname>
+                            <pc>,</pc>
+                        </persName>
+                        <affiliation role="Associate">A.</affiliation>
+                    </person>
+                </catalogueDesc>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

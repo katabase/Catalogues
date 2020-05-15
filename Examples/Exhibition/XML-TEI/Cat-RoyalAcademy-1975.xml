@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The exhibition of the Royal Academy, 1975. The 207th..</title>
+                    <publisher>William Clowes &amp; Sons</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date when="1975">1975</date>
+                    <distributor
+                        source="https://www.royalacademy.org.uk/art-artists/exhibition-catalogue/ra-sec-vol207-1975"
+                        >Royal Academy</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.18 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée organisée par titre d'oeuvre, avec plusieurs artistes -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Edgington</surname>
+                            <pc>,</pc>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName>
+                            <surname>Spink</surname>
+                            <pc>&amp;</pc>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName>
+                            <surname>Hyne</surname>
+                        </persName>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>156</num>
+                    <title>Central Area Redevelopment, Windsor</title>
+                    <pc>-</pc>
+                    <material>model</material>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>
+

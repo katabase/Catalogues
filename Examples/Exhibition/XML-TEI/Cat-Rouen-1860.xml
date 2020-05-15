@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Catalogue de la dix-huitième exposition municipale ouverte au Musée de
+                        Rouen, le 15 Mai 1860</title>
+                    <editor>Veuve A. Surville</editor>
+                    <pubPlace>Rouen, Rue des Bons-Enfants, 46-48</pubPlace>
+                    <date when="1853">1860</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k1181800p/f30.image"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.24 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec différents types de notes -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Bennetter</surname>
+                            <pc>(</pc>
+                            <forename>J.</forename>
+                            <pc>),</pc>
+                        </persName>
+                        <occupation>Peintre de marine<pc>,</pc></occupation>
+                        <residence>à Paris, rue du Faubourg-Saint-Honoré, 217<pc>,</pc></residence>
+                        <education>élève de MM. L. Meyer et T. Gudin<pc>.</pc></education>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>38</num>
+                    <pc>.</pc>
+                    <title>Effet de Lune</title>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Une escadre venant en grande large; le premier plan repré-sente un
+                            navire marchant (brick), louvoyant et virant de bord, pour éviter les
+                            autres, et apprêtant le signal de nuit</desc>
+                        <pc>.</pc>
+                    </note>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>39</num>
+                    <pc>.</pc>
+                    <title>Matin d'Eté</title>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Mer du Nord; au premier plan, un (Hardengerjack), cer-tain navire de
+                            cabotage, sur la côte de la Norwège, est abordé par des pêcheurs</desc>
+                        <pc>.</pc>
+                    </note>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>40</num>
+                    <pc>.</pc>
+                    <title>Calme: Estre Bagholmen (Norwège)</title>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Appartenant à M. J. Deliquaire, à Rouen</desc>
+                        <!-- choix d'encoder une note de provenance dans <desc> -->
+                        <pc>.</pc>
+                    </note>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>41</num>
+                    <pc>.</pc>
+                    <title>Pêcheurs de Homards dans Bjoornefjord, près de Bergem (Norwége)</title>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

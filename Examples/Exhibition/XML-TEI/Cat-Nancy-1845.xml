@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Catalogue des peintures, miniatures, aquarelles, dessins, sculptures et
+                        lithographies exposés à Nancy, en Juin 1845. Huitième année.</title>
+                    <editor>Imprimerie de Hinzelin et Ce</editor>
+                    <pubPlace>Nancy, Place du Marché, 67</pubPlace>
+                    <date when="1845">1845</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k6224576b/f7.image"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.3 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec techniques précisées entre parenthèses -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Bernard</surname>
+                            <pc>(</pc> Mlle <forename>Delphine</forename>
+                            <pc>),</pc>
+                        </persName>
+                        <residence>de Nancy<pc>,</pc></residence>
+                        <education>élève de M. Marechal, de Metz<pc>.</pc></education>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>1</num>
+                    <pc>.</pc>
+                    <title>Portrait de Mlle***</title>
+                    <pc>. (</pc> 
+                    <material>Pastel</material>
+                    <pc>).</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>2</num>
+                    <pc>.</pc>
+                    <title>Idem de Mlle W...</title>
+                    <material>Id</material>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>3</num>
+                    <pc>.</pc>
+                    <title>Etude d'après nature</title>
+                    <pc>.</pc>
+                    <material>Id</material>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

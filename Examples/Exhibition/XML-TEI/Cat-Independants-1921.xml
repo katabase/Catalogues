@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Société des artistes indépendants. Catalogue de la 32e exposition
+                        1921</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1921">1921</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k8892011/f24.item"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.22 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée bis, dont les items sont numérotés avec des lettres  -->
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Balande</surname>
+                            <pc>(</pc>
+                            <forename>Gaston</forename>
+                            <pc>),</pc>
+                        </persName>
+                        <birth>né à Saujon (Charente-Inférieure)<pc>. -</pc></birth>
+                        <residence>65, boulevard Arago, 13e<pc>.</pc></residence>
+                    </person>
+                </catalogueDesc>
+                <!-- choix d'encoder les différents items les uns après les autres (il n'est pas possible de mettre des item dans des item) -->
+                <catalogueItem>
+                    <num>130 bis a</num>
+                    <title>Le dimanche à Coubizon</title>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>130 bis b</num>
+                    <title>Le pont Valentré, à Cahors</title>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>130 bis c</num>
+                    <title>Village de Lautrec (Tarn)</title>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>130 bis d</num>
+                    <title>Le port de La Rochelle</title>
+                    <pc>(</pc>
+                    <material>dessin aquarelle</material>
+                    <pc>).</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>130 bis e</num>
+                    <title>L'entrée du 123e, à La Rochelle</title>
+                    <pc>(</pc>
+                    <material>aquarelle</material>
+                    <pc>).</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>
