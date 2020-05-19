@@ -32,17 +32,19 @@
                         <persName>
                             <surname>Bernard</surname>
                             <pc>(</pc> Mlle <forename>Delphine</forename>
-                            <pc>),</pc>
                         </persName>
-                        <residence>de Nancy<pc>,</pc></residence>
-                        <education>élève de M. Marechal, de Metz<pc>.</pc></education>
+                        <pc>),</pc>
+                        <residence>de Nancy</residence>
+                        <pc>,</pc>
+                        <education>élève de M. Marechal, de Metz</education>
+                        <pc>.</pc>
                     </person>
                 </catalogueDesc>
                 <catalogueItem>
                     <num>1</num>
                     <pc>.</pc>
                     <title>Portrait de Mlle***</title>
-                    <pc>. (</pc> 
+                    <pc>. (</pc>
                     <material>Pastel</material>
                     <pc>).</pc>
                 </catalogueItem>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>CATALOGUE d'une belle collection de lettres autographes ou l'on remarque
+                        des pièces très intéressantes de Boileau et des membres de la famille de
+                        Grignan dont la vente aura lieu le lundi 23 avril 1866</title>
+                    <editor>Etienne Charavay</editor>
+                    <publisher>Etienne Charavay</publisher>
+                    <pubPlace>Paris, 5, rue des Poitevins</pubPlace>
+                    <date when="1866">1866</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.5 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec vers en notes -->
+                <num>17</num>
+                <pc>.</pc>
+                <catalogueDesc>
+                    <person role="author">
+                        <persName><surname>BOILEAU-DESPRÉAUX</surname>
+                            <pc>(</pc>
+                            <forename>Nicolas</forename>
+                        </persName>
+                        <pc>),</pc>
+                        <trait>
+                            <p>le grand sa¬ tirique</p>
+                        </trait>
+                        <pc>.</pc>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <desc>L. a. s. à Brossette</desc>
+                    <pc>;</pc>
+                    <place>
+                        <placeName>
+                            <settlement>Paris</settlement>
+                        </placeName>
+                    </place><pc>,</pc>
+                    <date when="1699-03-25">25 mars 1699</date>
+                    <pc>,</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="3">3 p.</dim>
+                        <dim unit="in-folio" n="8">in-8</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Belle pièce. Il a tardé de lui répondre à cause de la maladie de
+                            Racine, qui est en fort grand danger. (Racine mourut un mois après.) —
+                            Détails sur un livre contre Boileau que vient de publier Bonnecorse (un
+                            poète victime de la verve du satirique). Il le trouve bien hardi
+                            d’envoyer un si mauvais ouvrage à Lyon, où l’on obligeait autrefois les
+                            méchants écrivains à effacer eux-mêmes leurs écrits avec la langue. — Il
+                            refait ainsi la légende que Brossette veut mettre au bas de son
+                            portrait, et nous montre, par ces vers, que sa haine de Cha¬ pelain
+                            était sa principale préoccupation: <quote>
+                                <l>Ne cherchez comment s’appelle </l>
+                                <l>L’escrivain peint dans ce tableau:</l>
+                                <l>A l’air dont il regarde et montre la Pucelle,</l>
+                                <l>Qui ne reconnoistroit B***</l>
+                            </quote></desc>
+                    </note>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

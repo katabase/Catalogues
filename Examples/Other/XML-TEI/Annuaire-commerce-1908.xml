@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Annuaire-almanach du commerce, de l'industrie, de la magistrature et de
+                        l'administration : ou almanach des 500.000 adresses de Paris, des
+                        départements et des pays étrangers : Firmin Didot et Bottin réunis</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1908">1908</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k3212112h/f550.image"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.500 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée d'un annuaire organisé par rues -->
+                <catalogueDesc>
+                    <name type="streetName">
+                        <placeName>
+                            <address>
+                                <street>LAUGIER (impasse)</street>
+                            </address>
+                        </placeName>
+                        <location>
+                            <measure type="lenght" unit="m" quantity="90"><pc>(</pc>Longr: 90m<pc>.
+                                    -</pc></measure>
+                            <measure type="width" unit="m" quantity="5">Largr:
+                                5m<pc>)</pc></measure>
+                            <district type="arrondissement">17e
+                                Arr.(Batignolles-Monceaux<pc>).</pc></district>
+                            <district type="quartier">Ternes<pc>).</pc></district>
+                            <desc type="intersection">˿ rue Laugier, 36 bis et 38</desc>
+                            <!-- peut être trouver une autre balise pour encoder l'intersection ? -->
+                        </location>
+                    </name>
+                    <pc>. -</pc>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>8</num>
+                    <persName>
+                        <surname>Duchon</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <desc type="occupation">vins</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>9</num>
+                    <persName>
+                        <surname>Gaildry</surname>
+                        <pc>(</pc>
+                        <forename>Ch</forename>
+                        <pc>.)</pc>
+                    </persName>
+                    <pc>,</pc>
+                    <desc type="occupation">ébéniste en voitures</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>10</num>
+                    <persName>
+                        <surname>Leboucher</surname>
+                        <pc>(</pc>
+                        <forename>A</forename>
+                        <pc>.)</pc>
+                    </persName>
+                    <pc>,</pc>
+                    <desc type="occupation">parquetteur</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>11</num>
+                    <persName>
+                        <surname>Monchy</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <desc type="occupation">bourrelier en voitures</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>12</num>
+                    <persName>Koru</persName>
+                    <pc>,</pc>
+                    <desc type="occupation">ferreur en voit</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>15</num>
+                    <persName>
+                        <surname>Macé</surname> et <surname>Duvauchel</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <desc type="occupation">fabr. en voitures</desc>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

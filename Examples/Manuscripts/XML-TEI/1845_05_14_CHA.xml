@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Catalogue d'une belle collection d'autographes dont la vente aura lieu le
+                        mercredi 14 mai 1845 et jours suivants</title>
+                    <publisher>Charon</publisher>
+                    <pubPlace>Paris, Rue Louis-le-Grand 33</pubPlace>
+                    <date when="1845">25 mars 1845</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.6 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec citation en note -->
+                <num>36</num>
+                <pc>.</pc>
+                <catalogueDesc>
+                    <person role="author">
+                        <persName>
+                            <surname>BONAPARTE</surname>
+                            <pc>(</pc>
+                            <forename>Joseph</forename>
+                        </persName>
+                        <pc>),</pc>
+                        <occupation>ex-roi d’Espagne</occupation>
+                        <pc>.</pc>
+                        <birth when="1768">N. <date>1768</date></birth>
+                        <pc>.</pc>
+                        <death when="1844">M. <date>1844</date></death>
+                        <pc>.</pc>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <desc>L. aut. sig. à son frère Lucien</desc>
+                    <pc>.</pc>
+                    <place>
+                        <placeName>
+                            <settlement>Naples</settlement>
+                            <!-- finesse encodage : précise-t-on que c'est une ville avec balise <settlement> ? -->
+                        </placeName>
+                    </place>
+                    <pc>,</pc>
+                    <date when="1806-11-24">24 novembre 1806</date>
+                    <pc>,</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="1">1 grande page</dim>
+                        <dim unit="in-folio" n="4">in-4</dim>
+                    </dimensions>
+                    <pc>. «</pc>
+                    <note>
+                        <quote>.... Nous faisons toujours la guerre des Chouans; les Anglais
+                            viennent « de nous envoyer encore quelques milliers de brigands, qui
+                            seront bientôt « culbutés, mais qui fatigueront toujours nos troupes, et
+                            feront quelque « mal aux habitants du pays; ils pillent, ils volent,
+                            tuent et fuient.</quote>
+                    </note>
+                    <pc>»</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

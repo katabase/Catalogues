@@ -32,10 +32,12 @@
                             <surname>Balande</surname>
                             <pc>(</pc>
                             <forename>Gaston</forename>
-                            <pc>),</pc>
                         </persName>
-                        <birth>né à Saujon (Charente-Inférieure)<pc>. -</pc></birth>
-                        <residence>65, boulevard Arago, 13e<pc>.</pc></residence>
+                        <pc>),</pc>
+                        <birth>né à Saujon (Charente-Inférieure)</birth>
+                        <pc>. -</pc>
+                        <residence>65, boulevard Arago, 13e</residence>
+                        <pc>.</pc>
                     </person>
                 </catalogueDesc>
                 <!-- choix d'encoder les différents items les uns après les autres (il n'est pas possible de mettre des item dans des item) -->

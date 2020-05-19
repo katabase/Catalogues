@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Almanach-annuaire de l'arrondissement de Lunéville</title>
+                    <pubPlace>Lunéville</pubPlace>
+                    <date when="1892">1892</date>
+                    <distributor source="https://gallica.bnf.fr/ark:/12148/bpt6k993557r/f100.image"
+                        >BnF</distributor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.18 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée d'un annuaire organisé par métiers  -->
+                <catalogueDesc>
+                    <name type="trade">Tonneliers</name>
+                    <!-- possibilité de remplacer trade par occupation -->
+                    <pc>.</pc>
+                </catalogueDesc>
+                <catalogueItem>
+                    <persName>
+                        <surname>Babillotte</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>Lorraine 8</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Bourdon</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>pl. Eug. Ferry 5 bis</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem><persName><surname>Joseph</surname></persName><pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>fg de Nancy 39</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Poirot</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>fg. de Nacy 19</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Poirot</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>pl. des Carmes 6</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Masson</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>Bosquets 32</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Roy</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>Brèche 9</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+                <catalogueItem>
+                    <persName>
+                        <surname>Schilsung</surname>
+                    </persName>
+                    <pc>,</pc>
+                    <place>
+                        <placeName>
+                            <address>
+                                <street>fg de Viller 16</street>
+                            </address>
+                        </placeName>
+                    </place>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

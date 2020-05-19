@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>LETTRES AUTOGRAPHES ET DOCUMENTS HISTORIQUES</title>
+                    <num>507</num>
+                    <editor>Noël CHARAVAY</editor>
+                    <publisher>Noël CHARAVAY</publisher>
+                    <pubPlace> 3, rue de Furstenberg, à Paris</pubPlace>
+                    <date when="1919-04">Avril 1919</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.4 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée dont l'auteur est associé à une autre personne, plus connue -->
+                <num>42</num>
+                <pc>.</pc>
+                <catalogueDesc>
+                    <person role="author">
+                        <persName>
+                            <surname>DESGENETTES</surname>
+                            <pc>(</pc>
+                            <forename>R. N.</forename>
+                            <pc>,</pc>
+                            <roleName>baron Dubriche</roleName>
+                        </persName>
+                        <pc>),</pc>
+                        <occupation>célèbre médecin</occupation>
+                        <pc>,</pc>
+                        <birth>né à Alençon</birth>
+                        <pc>.</pc>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <num>1°</num>
+                    <desc>L. aut. sig</desc>
+                    <pc>.</pc>
+                    <place>
+                        <placeName>
+                            <settlement>St-Omer</settlement>
+                        </placeName>
+                    </place>
+                    <pc>,</pc>
+                    <date when="1822-10-21">21 octobre 1822</date>
+                    <pc>,</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="4">4 p. pl.</dim>
+                        <dim unit="in-folio" n="4">in-4</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Belle lettre. Il fait à un ami l'historique de sa tournée, et lui cite
+                            les endroits dans les- quels il a prêché, à Boulogne, dans l'église de
+                            la Basse-Ville; à Calais et à Saint-Omer</desc>
+                    </note>
+                    <pc>.</pc>
+                    <measure type="currency" unit="french-franc" quantity="3">3</measure>
+                    <pc>»</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

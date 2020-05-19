@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>CATALOGUE d'une précieuse collection de LETTRES AUTOGRAPHES COMPOSANT EN
+                        PARTIE LE CABINET D'UN AMATEUR ÉTRANGER (...) dont la vente aura lieu le 30
+                        mai 1896</title>
+                    <editor>Etienne Charavay</editor>
+                    <publisher>Etienne Charavay</publisher>
+                    <pubPlace>3 rue de Furstenberg, Paris</pubPlace>
+                    <publisher>J. Pearson &amp;co</publisher>
+                    <pubPlace>5, Pall Mall Place, S.W., Londres</pubPlace>
+                    <date when="1896">1896</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.4 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec description de l'auteur détaillée -->
+
+                <num>20</num>
+                <pc>.</pc>
+                <catalogueDesc>
+                    <person role="author">
+                        <persName>
+                            <surname>BUSSY-RABUTIN</surname>
+                            <pc>(</pc>
+                            <forename>Roger</forename>
+                            <pc>,</pc>
+                            <roleName type="nobility">comte de</roleName>
+                        </persName>
+                        <pc>),</pc>
+                        <trait>
+                            <p>cousin de Madame de Sévigné</p>
+                        </trait>
+                        <pc>,</pc>
+                        <occupation>auteur de l'Histoire amoureuse des Gaules</occupation>
+                        <pc>,</pc>
+                        <affiliation>membre de l’Académie française</affiliation>
+                        <pc>,</pc>
+                        <birth>n. 1618</birth>
+                        <pc>,</pc>
+                        <death>m. 1693</death>
+                        <pc>.</pc>
+                        <!-- Est-ce qu'on encode toutes ces infos dans <trait> pour montrer que ce sont des infos biographiques ? -->
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <desc>P. s. sur vélin</desc>
+                    <pc>;</pc>
+                    <date when="1665-12-31">31 décembre 1665</date>
+                    <pc>,</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="1">1 p.</dim>
+                        <dim unit="in-folio" n="4">in-4 oblong</dim>
+                        <!-- quelle finesse d'encodage ? -->
+                    </dimensions>
+                    <pc>.</pc>
+                    <note>
+                        <desc>Reçu d'un mois de ses appointements de maître de camp général de la
+                            cavalerie légère</desc>
+                    </note>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

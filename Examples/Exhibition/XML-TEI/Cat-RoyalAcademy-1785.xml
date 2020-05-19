@@ -15,7 +15,8 @@
                     <publisher>T. Cadell</publisher>
                     <pubPlace>London</pubPlace>
                     <date when="1785">1785</date>
-                    <distributor source="https://www.royalacademy.org.uk/art-artists/exhibition-catalogue/ra-sec-vol17-1785"
+                    <distributor
+                        source="https://www.royalacademy.org.uk/art-artists/exhibition-catalogue/ra-sec-vol17-1785"
                         >Royal Academy</distributor>
                 </bibl>
             </sourceDesc>
@@ -29,15 +30,15 @@
                 <catalogueItem>
                     <num>223</num>
                     <pc>*</pc>
-                    <title>Fruit</title> 
+                    <title>Fruit</title>
                 </catalogueItem>
                 <catalogueDesc>
                     <person>
                         <persName>
                             <forename>S.</forename>
                             <surname>Elmer</surname>
-                            <pc>,</pc>
                         </persName>
+                        <pc>,</pc>
                         <affiliation role="Associate">A.</affiliation>
                     </person>
                 </catalogueDesc>

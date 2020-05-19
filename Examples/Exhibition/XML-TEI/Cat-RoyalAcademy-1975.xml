@@ -31,15 +31,13 @@
                     <person>
                         <persName>
                             <surname>Edgington</surname>
-                            <pc>,</pc>
                         </persName>
-                    </person>
+                    </person><pc>,</pc>
                     <person>
                         <persName>
                             <surname>Spink</surname>
-                            <pc>&amp;</pc>
                         </persName>
-                    </person>
+                    </person><pc>&amp;</pc>
                     <person>
                         <persName>
                             <surname>Hyne</surname>
@@ -56,4 +54,3 @@
         </body>
     </text>
 </TEI>
-

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+                    <num>95</num>
+                    <editor>Eugène Charavay fils</editor>
+                    <publisher>Eugène Charavay fils</publisher>
+                    <pubPlace>Paris, 8 quai du Louvre</pubPlace>
+                    <date when="1885-12">Décembre 1885</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.6 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée avec note -->
+                <num>36</num>
+                <catalogueDesc>
+                    <person>
+                        <persName>
+                            <surname>Créquy</surname>
+                            <pc>(</pc>
+                            <forename>François</forename>
+                            <nameLink>de</nameLink>
+                        </persName>
+                        <pc>),</pc>
+                        <occupation>célèbre maréchal de France</occupation>
+                        <pc>,</pc>
+                        <trait>
+                            <p>rival de Turenne</p>
+                        </trait>
+                        <pc>,</pc>
+                        <birth>né vers 1624</birth>
+                        <pc>,</pc>
+                        <death>mort en 1687</death>
+                        <pc>. —</pc>
+                    </person>
+                </catalogueDesc>
+                <catalogueItem>
+                    <desc>L. a. s. de son mono¬ gramme à Pellisson</desc>
+                    <pc>;</pc>
+                    <place>
+                        <placeName>
+                            <settlement>Nancy</settlement>
+                        </placeName>
+                    </place>
+                    <pc>,</pc>
+                    <date when="1670-12-06">6 décembre 1670</date><pc>,</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="1">1 p.</dim>
+                        <dim unit="in-folio" n="4">in-4</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <measure type="currency" unit="french-franc" quantity="40">40</measure>
+                    <pc>»</pc>
+                    <note>
+                        <desc>Intéressante pièce. Malgré ses nombreuses occupations, il lit ses
+                            lettres avec beaucoup d’agrément: «<quote>Saves vous bien qu’il i a une
+                                de vos amies (Mlle de Scudéry), à qui je suis ravi que l'on dise ce
+                                qui m'arrive et ce qui se passe sur mon sujet</quote>». Allusion à
+                            la conquête de la Lorraine: «<quote>Comme j'ay assez de courses à faire
+                                en Lorraine, je ne suis pas toujours sédentaire à
+                            Nanci</quote>»</desc>
+                    </note>
+                    <pc>.</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

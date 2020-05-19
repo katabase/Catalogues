@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Catalogue de lettres autographes, manuscrits, documents historiques, etc.
+                        de A. Laverdet</title>
+                    <num>3</num>
+                    <editor>Auguste Laverdet</editor>
+                    <publisher>Auguste Laverdet</publisher>
+                    <pubPlace>Paris, 24 rue Saint-Lazare</pubPlace>
+                    <date when="1856-10">Octobre 1856</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- p.17 -->
+    <text>
+        <body>
+            <catalogueEntry>
+                <!-- entrée provenant d'une institution, avec description détaillée -->
+                <num>149</num>
+                <pc>.</pc>
+                <catalogueDesc>
+                    <orgName role="author">Assemblée nationale de 1789</orgName>
+                    <pc>.</pc>
+                </catalogueDesc>
+                <catalogueItem>
+                    <desc>Extrait du procès-ver¬ bal de la séance du 22 juin 1791</desc>
+                    <pc>.</pc>
+                    <note>
+                        <quote>L’assemblée nationale a décrété qu’il sera donné des ordres
+                            sur-le-champ, soit à la poste, soit aux barrières, pour que personne ne
+                            sorte de la ville sans une permis¬ sion par écrit, etc.</quote>
+                        <signatures>Signé Dauchy, Grenot, Merle et Pinteville-Cer¬non</signatures>
+                    </note>
+                    <pc>.</pc>
+                    <dimensions>
+                        <dim unit="page" quantity="1">1 p.</dim>
+                        <dim unit="in-folio" n="8">in-8</dim>
+                    </dimensions>
+                    <pc>.</pc>
+                    <stamp>Cachet</stamp>
+                    <pc>.</pc>
+                    <measure type="currency" unit="french-franc" quantity="6">6</measure>
+                    <pc>»</pc>
+                </catalogueItem>
+            </catalogueEntry>
+        </body>
+    </text>
+</TEI>

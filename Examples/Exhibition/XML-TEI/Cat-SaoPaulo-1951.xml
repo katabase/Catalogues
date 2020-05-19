@@ -32,8 +32,10 @@
                             <forename>Morris</forename>
                             <surname>Graves</surname>
                         </persName>
-                        <nationality><pc>(</pc>EE. UU.</nationality>
-                        <birth>1910<pc>-)</pc></birth>
+                        <pc>(</pc>
+                        <nationality>EE. UU.</nationality>
+                        <birth>1910</birth>
+                        <pc>-)</pc>
                     </person>
                 </catalogueDesc>
                 <catalogueItem>
@@ -49,10 +51,10 @@
                         <dim>76,5x68,5</dim>
                     </dimensions>
                     <pc>.</pc>
-                    <place>
-                        <placeName>Museum of Modern Art<pc>,</pc></placeName>
+                    <org>
+                        <orgName>Museum of Modern Art<pc>,</pc></orgName>
                         <settlement type="city">New York</settlement>
-                    </place>
+                    </org>
                 </catalogueItem>
                 <catalogueItem>
                     <num>24</num>
@@ -67,10 +69,10 @@
                         <dim>136x68,5</dim>
                     </dimensions>
                     <pc>.</pc>
-                    <place>
-                        <placeName>Museum of Modern Art<pc>,</pc></placeName>
+                    <org>
+                        <orgName>Museum of Modern Art<pc>,</pc></orgName>
                          <settlement type="city">New York</settlement>
-                    </place>
+                    </org>
                 </catalogueItem>
                 <catalogueItem>
                     <num>25</num>
@@ -85,10 +87,10 @@
                         <dim>76,5x70</dim>
                     </dimensions>
                     <pc>.</pc>
-                    <place>
-                        <placeName>Willard Gallery<pc>,</pc></placeName>
+                    <org>
+                        <orgName>Willard Gallery<pc>,</pc></orgName>
                         <settlement type="city">New York</settlement>
-                    </place>
+                    </org>
                 </catalogueItem>
             </catalogueEntry>
         </body>
