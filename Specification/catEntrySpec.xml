@@ -39,7 +39,6 @@
             <moduleRef key="textstructure" except=""/>
             <moduleRef key="namesdates" except=""/>
             <moduleRef key="analysis" except=""/>
-            <moduleRef key="msdescription" except=""/>
 
             <moduleSpec ident="catalogues"/>
 
@@ -59,7 +58,6 @@
                      <elementRef key="catalogueItem"/>
                      <elementRef key="catalogueEntry"/>
                      <elementRef key="pc"/>
-                     <elementRef key="num"/>
                      <classRef key="model.global"/>
                      <classRef key="model.ptrLike"/>
                   </alternate>
@@ -92,8 +90,6 @@
                      <textNode/>
                      <elementRef key="num"/>
                      <elementRef key="pc"/>
-                     <elementRef key="history"/>
-                     <elementRef key="place"/>
                      <elementRef key="catalogueDesc"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
@@ -127,19 +123,7 @@
                   <memberOf key="model.catalogueDescPart" mode="add"/>
                </classes>
             </classSpec>
-            
-            <classSpec type="model" ident="model.dateLike" mode="change">
-               <classes mode="change">
-                  <memberOf key="model.catalogueDescPart" mode="add"/>
-               </classes>
-            </classSpec>
-            
-            <classSpec type="model" ident="model.pPart.msdesc" mode="change">
-               <classes mode="change">
-                  <memberOf key="model.catalogueDescPart" mode="add"/>
-               </classes>
-            </classSpec>
-            
+
          </schemaSpec>
       </body>
    </text>
