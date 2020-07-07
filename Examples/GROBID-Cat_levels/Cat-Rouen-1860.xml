@@ -25,22 +25,18 @@
     <!-- p.24 -->
     <text>
         <body>
-            <body>
-                <entry>
-                    <desc>
-                        <name>BÉNARD (HUBERT-EUGÈNE)</name>, 
-                        <trait>A Boulogne-sur-Mer, route de Calais, 3; élève de M. Claudius Jacquand</trait>.
-                    </desc>
-                    <item>
-                        <num>36</num>. 
-                        <title>La Brise en rade de Boulogne-sur-Mer</title>
-                    </item>
-                    <item>
-                        <num>37</num>. 
-                        <title>Barque de Pêcheur du Portel, levant l’ancre par un gros temps (marine).</title>
-                    </item>
-                </entry>
-            </body>
+            <catalogueEntry>
+                <catalogueDesc>
+                    <name>BÉNARD (HUBERT-EUGÈNE)</name>, <trait>A Boulogne-sur-Mer, route de Calais,
+                        3; élève de M. Claudius Jacquand</trait>. </catalogueDesc>
+                <catalogueItem>
+                    <num>36</num>. <title>La Brise en rade de Boulogne-sur-Mer</title>
+                </catalogueItem>
+                <catalogueItem>
+                    <num>37</num>. <title>Barque de Pêcheur du Portel, levant l’ancre par un gros
+                        temps (marine).</title>
+                </catalogueItem>
+            </catalogueEntry>
         </body>
     </text>
 </TEI>
