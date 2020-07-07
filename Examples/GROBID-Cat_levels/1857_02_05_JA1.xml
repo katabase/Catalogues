@@ -27,17 +27,17 @@
     <!-- p.6 -->
     <text>
         <body>
-            <entry>
+            <catalogueEntry>
                 <num>41</num>. 
-                <desc>
+                <catalogueDesc>
                     <name>DENTZEL</name>, 
                     <trait>député du Bas-Rhin à la Convention</trait>.
-                </desc>
-                <item>
+                </catalogueDesc>
+                <catalogueItem>
                     <desc>L. aut. sig. au président d la Convention. Maison d'arrêt des Ecossais, an III. 1 p. pl. in-4.</desc>
                     <note>Arrêté depuis neuf mois, et étant tombé malade, il demande à être transféré chez lui avec un garde.</note>
-                </item>
-            </entry>
+                </catalogueItem>
+            </catalogueEntry>
         </body>
     </text>
 </TEI>
